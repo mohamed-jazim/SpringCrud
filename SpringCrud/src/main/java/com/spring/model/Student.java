@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -28,4 +28,7 @@ public class Student {
 
     @Column
     private int salary;
+
+    @Column
+    private String place;
 }
