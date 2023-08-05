@@ -22,4 +22,7 @@ public class Student {
 
     @Column
     private String email;
+
+    @Column
+    private String designation;
 }
