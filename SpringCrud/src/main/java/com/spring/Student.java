@@ -25,4 +25,7 @@ public class Student {
 
     @Column
     private String designation;
+
+    @Column
+    private int salary;
 }
